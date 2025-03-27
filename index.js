@@ -4,6 +4,7 @@ require("dotenv").config();
 const cors = require('cors');
 const wordsByLength = require('./words.json');
 
+//allow all type of users  just for testing purpose
 app.use(cors({
   origin: '*',
   credentials: true,
